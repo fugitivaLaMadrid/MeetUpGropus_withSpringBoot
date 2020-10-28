@@ -1,0 +1,18 @@
+#topicId - gitLegit
+
+#POST/GET http://localhost:8080/topics
+}
+{
+    "id": "gitLegit",
+    "name": "git legit",
+    "description": "discussion on Git repo regular basis"
+}
+#groupid: fullStackNL
+#POST/GET http://localhost:8080/topics/gitLegit/groups
+{
+    "id": "fullStackNL",
+    "name": "full stack netherlands",
+    "description": "monthly meetUp for full stack developers"
+}
+#DELETE http://localhost:8080/topics/gitLegit/groups/fullStackNL
+#PUT   http://localhost:8080/topics/gitLegit/groups/fullStackNL
